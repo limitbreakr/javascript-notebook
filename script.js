@@ -1,3 +1,7 @@
+var food = "Hamburgers";
+console.log(food.substring(3,10)); // will only say 'burgers'
+
+
 // This is an example of a comment that the computer will not read
 // but I will!
 
