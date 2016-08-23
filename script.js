@@ -1,7 +1,11 @@
 var food = "Hamburgers";
 console.log(food.substring(3,10)); // will only say 'burgers'
 
+var rectPerimeter = function (length, width){
+    return 2*(length+width);
+};
 
+console.log("A rectangle with length of 4 and width of 5 has a perimeter of " + rectPerimeter(4,5));
 // This is an example of a comment that the computer will not read
 // but I will!
 
