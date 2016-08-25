@@ -17,6 +17,26 @@ do {
 	console.log("It will not run more time's because the while condition is " + condition + "!");	
 } while (condition);
 
+// switch statement
+
+var calling = prompt("What would you like your name to be?","Type any name you want here");
+
+switch(calling){
+  case 'Terry':
+    console.log("Are you Scary Terry?!");
+    break;
+  case 'Joe':
+    console.log("No problem Joe.");
+    break;
+  case 'Fred':
+    console.log("Indeed. Aren't you that burn victim?");
+    break;
+  case 'Bob':
+    console.log("Bob builds things!");
+    break;
+  default:
+    console.log("I can't call you " + calling + " because it's dumb. You get to be called Toby.");
+}
 
 // substring, positions, and a function
 
