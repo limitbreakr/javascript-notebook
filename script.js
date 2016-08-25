@@ -1,9 +1,33 @@
+// aug25, adding some loops
+
+var cities = ["Toronto","Montreal","Ottawa","Vancouver","Winnipeg","Calgary"]
+for (var i = 0; i < cities.length; i++){
+    console.log("There is a hockey team in " + cities[i]);
+}
+
+var check = true;
+while (check){
+    console.log("This loop will run once");
+    check = false;
+}
+
+var condition = false;
+do {
+	console.log("A do-while loop will be forced to run once.");
+	console.log("It will not run more time's because the while condition is " + condition + "!");	
+} while (condition);
+
+
+// substring, positions, and a function
+
 var food = "Hamburgers";
 console.log(food.substring(3,10)); // will only say 'burgers'
 
 var rectPerimeter = function (length, width){
     return 2*(length+width);
 };
+
+// this is from the beginning
 
 console.log("A rectangle with length of 4 and width of 5 has a perimeter of " + rectPerimeter(4,5));
 // This is an example of a comment that the computer will not read
